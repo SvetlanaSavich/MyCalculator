@@ -18,7 +18,7 @@
         </Button>
         <TextBox Name="tb" Height="38" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,20,0,0"
              HorizontalAlignment="Left" Width="201" FontSize="20" Background="Black" BorderThickness="2"
-             Text="">
+             Text="" Keyboard.KeyDown="Disable_Keyboard">
             <Control.Foreground>
                 <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.WindowColorKey}}"/>
             </Control.Foreground>
